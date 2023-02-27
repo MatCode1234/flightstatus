@@ -4,15 +4,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
-import pageobjects.FlightStatusPage;
+import pageobject.FlightStatusPage;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static helpers.TestBase.driver;
+import static helper.TestBase.driver;
 
 
-public class StepDefinitions {
+public class StepDefinition {
 
     private final FlightStatusPage fsp = PageFactory.initElements(driver, FlightStatusPage.class);
     private final String todayDate = new SimpleDateFormat("dd/MM/yyyy").format(new Date());

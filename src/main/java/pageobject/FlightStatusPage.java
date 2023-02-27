@@ -1,4 +1,4 @@
-package pageobjects;
+package pageobject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,8 +11,7 @@ import java.util.List;
 public class FlightStatusPage {
 
     @FindBy(css = ".cookie-consent--cta-accept")
-    public
-    WebElement cookieConsent;
+    public WebElement cookieConsent;
 
     @FindBy(css = "button.o-compact-search__cta-button-button")
     List<WebElement> departureButtons;
