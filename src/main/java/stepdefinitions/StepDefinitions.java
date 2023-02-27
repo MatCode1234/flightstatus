@@ -9,7 +9,7 @@ import pageobjects.FlightStatusPage;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static helper.TestBase.driver;
+import static helpers.TestBase.driver;
 
 
 public class StepDefinitions {

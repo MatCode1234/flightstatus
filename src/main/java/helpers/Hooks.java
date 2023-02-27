@@ -1,9 +1,9 @@
-package helper;
+package helpers;
 
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.BeforeAll;
 
-import static helper.TestBase.driver;
+import static helpers.TestBase.driver;
 
 public class Hooks {
 

@@ -1,4 +1,4 @@
-package helper;
+package helpers;
 
 
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-import static helper.Constants.MAC_CHROME_DRIVER;
+import static helpers.Constants.MAC_CHROME_DRIVER;
 
 public class TestBase {
 
