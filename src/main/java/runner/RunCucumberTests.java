@@ -8,7 +8,7 @@ import static helper.Constants.CUCUMBER_FEATURE;
 @CucumberOptions(
         features = CUCUMBER_FEATURE,
         plugin = { "pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-        glue = { "helper", "stepdefinitions", "runner", "pagaobjects"}
+        glue = { "helper", "stepdefinitions", "runner", "pageobjects"}
 )
 public class RunCucumberTests extends AbstractTestNGCucumberTests {
 

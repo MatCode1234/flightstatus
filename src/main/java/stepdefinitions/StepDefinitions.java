@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
-import pagaobjects.FlightStatusPage;
+import pageobjects.FlightStatusPage;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
